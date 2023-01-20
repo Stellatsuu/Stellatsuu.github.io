@@ -1,9 +1,11 @@
 # [Portfolio](https://stellatsuu.github.io/)
 
 ## Statut
-- [En cours de maquettage](https://www.figma.com/file/Y8GqquKP1DJCRA1bHsnERJ/Portfolio?node-id=0%3A1&t=DQ7CeKJtBdY5OtV9-1) 
+- [Maquettage](https://www.figma.com/file/Y8GqquKP1DJCRA1bHsnERJ/Portfolio?node-id=0%3A1&t=DQ7CeKJtBdY5OtV9-1) 
+- Création du site web commencée
 
 ## TODO
+- Projet CGJ 2023 - Jeu vidéo
 - Projet NDI 2022 (à retravailler après l'événement) - Site web/Serious Game
 - Projet E:cclesia 2022 (GitHub) - Site web
 - Projet Camille's Coworking Adventure 2022 - Gestion de projet, conception d'un projet entrepreneurial
