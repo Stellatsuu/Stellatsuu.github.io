@@ -5,25 +5,26 @@ body{
 }
 
 /*Title&Description*/
-#left-infos-mainPage{
+.left-infos{
     display: flex;
     flex-direction: column;
     gap: 20px;
 
     position: absolute;
     top: 30%;
-    margin-left: 15%;
+    margin-left: 18%;
+    margin-right: 5px;
 }
 
-#title{
+.title{
     display: flex;
     flex-direction: column;
 
-    font-size: 4em;
+    font-size: 3.8em;
     text-transform: uppercase;
 }
 
-#description{
+.description{
     font-size: 1.5em;
 }
 
@@ -54,14 +55,14 @@ nav ul{
     display: none;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 660px){
     /*Title&Description*/
-    #left-infos-mainPage{
+    .left-infos{
         margin-left: 10%;
     }
 
-    #title{
-        font-size: 3em;
+    .title{
+        font-size: 2.5em;
     }
 
     /*NavBar*/

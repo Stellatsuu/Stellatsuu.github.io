@@ -1,10 +1,17 @@
 # [Portfolio](https://stellatsuu.github.io/)
 
-## Statut
-- [Maquettage](https://www.figma.com/file/Y8GqquKP1DJCRA1bHsnERJ/Portfolio?node-id=0%3A1&t=DQ7CeKJtBdY5OtV9-1) 
-- Création du site web commencée
+## Disclaimer
+// This ReadMe is mostly a TODO list of things I want to do, add or upgrade on my Portfolio. 
 
-## TODO
+// Ce ReadMe est majoritairement une liste des choses que j'aimerais faire, ajouter ou améliorer sur mon Portfolio (surtout car réalisé "à la va vite").
+
+Website : https://stellatsuu.github.io/
+
+------------------------------------------
+## TODO - Projets
+- Projet NDI 2023
+- Projet Minecraft/Myavatar
+- Projet Nyavigator
 - Projet CGJ 2023 - Jeu vidéo
 - Projet NDI 2022 (à retravailler après l'événement) - Site web/Serious Game
 - Projet E:cclesia 2022 (GitHub) - Site web
@@ -16,3 +23,8 @@
 - Projet NDI 2021 (à refaire avec les compétences acquises) - Site web
 - Projet Scrabble 2021 (à refaire avec les compétences acquises) - Jeu de société en Java
 - Projet Controverses 2021 - Site web 
+
+## TODO - Code
+- Passer sous VueJS (majoritairement pour retirer la duplication de code et créer des templates pour les projets etc)
+- Ajout de l'effet parallax (1 scroll = 1 page)
+- Responsive
