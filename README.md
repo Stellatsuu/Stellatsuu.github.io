@@ -1,46 +1,36 @@
-# portfolio
+# [Portfolio](https://stellatsuu.github.io/)
 
-This template should help get you started developing with Vue 3 in Vite.
+## Disclaimer
 
-## Recommended IDE Setup
+// As of today, this ReadMe is mostly a TODO list of things I want to do, add or upgrade on my Portfolio.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+// Aujourd'hui, ce ReadMe est majoritairement une liste des choses que j'aimerais faire, ajouter ou améliorer sur mon
+Portfolio.
 
-## Type Support for `.vue` Imports in TS
+Website : https://stellatsuu.github.io/
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+------------------------------------------
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## TODO - Projets (choisir les + pertinents)
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+- Projet NDI 2023
+- Projet Minecraft/Myavatar
+- Projet Nyavigator
+- Projet CGJ 2023 - Jeu vidéo
+- Projet NDI 2022 (à retravailler après l'événement) - Site web/Serious Game
+- Projet E:cclesia 2022 (GitHub) - Site web
+- Projet Camille's Coworking Adventure 2022 - Gestion de projet, conception d'un projet entrepreneurial
+- Projet perso, Bot Discord 2022 - Bot Discord.JS/Twitter API/Twitch API
+- Projet Les Aventuriers du Rail 2022 (GitHub) - Jeu de société en Java/JavaFX
+- Projet NEEARD 2022 - Conception et maquettage d'application
+- Projet Escape Game 2021 - Gestion de projet, conception d'une escape game
+- Projet NDI 2021 (à refaire avec les compétences acquises) - Site web
+- Projet Scrabble 2021 (à refaire avec les compétences acquises) - Jeu de société en Java
+- Projet Controverses 2021 - Site web
 
-## Customize configuration
+## TODO - Code
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- Passer sous VueJS (majoritairement pour retirer la duplication de code et créer des templates pour les projets etc) =>
+  en cours
+- Ajout de l'effet parallax (1 scroll = 1 page)
+- Responsive
