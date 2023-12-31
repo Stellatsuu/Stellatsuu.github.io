@@ -1,47 +1,56 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+<script setup lang="ts">
+import {useRouter} from 'vue-router';
+
+const router = useRouter();
+
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <link rel="stylesheet" href="./assets/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
+    <nav>
+      <span @click="router.push({'name': 'main'})">Stellatsu</span>
+
+      <div class="menu">
+        <ul>
+          <li><span @click="router.push({'name': 'about'})">A propos</span></li>
+          <li><span @click="router.push({'name': 'projects'})">Projets</span></li>
+          <li><span @click="router.push({'name': 'contact'})">Contact</span></li>
+        </ul>
+      </div>
+
+    </nav>
   </header>
 
   <main>
-    <TheWelcome />
+    <router-view/>
   </main>
+
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  padding: 20px 10%;
+}
+nav span {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.1em;
+  cursor: pointer;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
+nav ul{
+  display: flex;
+  gap: 30px;
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+  list-style: none;
 }
 </style>
