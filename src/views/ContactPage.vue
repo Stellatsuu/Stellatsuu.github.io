@@ -1,5 +1,6 @@
-<script setup>
+<script setup lang="ts">
 
+import DecorativeLines from "@/components/DecorativeLines.vue";
 </script>
 
 <template>
@@ -7,9 +8,12 @@
     <div class="main_content">
       <span class="title">Contacts</span>
 
+      <DecorativeLines/>
+
       <div class="description">
-        <p>Email : stella-maria.renucci@etu.umontpellier.fr</p>
-        <p>Téléphone : 06 08 47 21 05</p>
+        <span>Email : stella-maria.renucci@etu.umontpellier.fr</span>
+        <span>Téléphone : 06 08 47 21 05</span>
+
         <div id="app_icons">
           <a href="https://github.com/Stellatsuu" target="_blank">
             <img src="../assets/images/github_icon.png" alt="github_icon">
@@ -17,7 +21,13 @@
           <a href="https://www.linkedin.com/in/stella-maria-r/" target="_blank">
             <img src="../assets/images/linkedin_icon.png" alt="linkedin_icon">
           </a>
+
+          <!-- TODO : check CV path-->
+          <a href="./files/RENUCCI_Stella-Maria_CV.pdf" target="_blank">
+            <img src="../assets/images/cv_icon.png" alt="cv_icon"/>
+          </a>
         </div>
+
       </div>
 
     </div>
@@ -25,6 +35,12 @@
 </template>
 
 <style scoped>
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
 #app_icons {
   display: flex;

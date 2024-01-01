@@ -11,13 +11,16 @@ const router = useRouter();
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
 
     <nav>
-      <span @click="router.push({'name': 'main'})">Stellatsu</span>
+      <span :class="{ 'active': $route.name === 'main' }" @click="router.push({'name': 'main'})">Stellatsu</span>
 
       <div class="menu">
         <ul>
-          <li><span @click="router.push({'name': 'about'})">A propos</span></li>
-          <li><span @click="router.push({'name': 'projects'})">Projets</span></li>
-          <li><span @click="router.push({'name': 'contact'})">Contact</span></li>
+          <li><span :class="{ 'active': $route.name === 'about' }"
+                    @click="router.push({'name': 'about'})">A propos</span></li>
+          <li><span :class="{ 'active': $route.name === 'projects' }"
+                    @click="router.push({'name': 'projects'})">Projets</span></li>
+          <li><span :class="{ 'active': $route.name === 'contact' }"
+                    @click="router.push({'name': 'contact'})">Contact</span></li>
         </ul>
       </div>
 
@@ -31,6 +34,10 @@ const router = useRouter();
 </template>
 
 <style scoped>
+.active {
+  text-decoration: underline;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -39,6 +46,7 @@ nav {
 
   padding: 20px 10%;
 }
+
 nav span {
   text-decoration: none;
   text-transform: uppercase;
@@ -47,7 +55,7 @@ nav span {
   cursor: pointer;
 }
 
-nav ul{
+nav ul {
   display: flex;
   gap: 30px;
 
