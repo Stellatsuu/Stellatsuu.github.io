@@ -2,7 +2,7 @@
 
 import DecorativeLines from "@/components/DecorativeLines.vue";
 import {ref, type Ref} from "vue";
-import ProjectPreview from "@/components/ProjectPreview.vue";
+import ProjectPreview from "@/components/ProjectCard.vue";
 import type {ProjetPreview} from "@/types";
 
 
@@ -10,6 +10,7 @@ let id = 0;
 const projets: Ref<ProjetPreview[]> = ref([
   {id: id++, titre: "E:cclesia", description: "....", image: "ecclesia_logo.png"},
   {id: id++, titre: "Nyavigator", description: "....", image: "nyavigator_logo.png"},
+  {id: id++, titre: "Aventuriers du Rail - Europe", description: "....", image: "aventuriers_logo.png"}
 ]);
 
 
@@ -19,12 +20,14 @@ const projets: Ref<ProjetPreview[]> = ref([
   <div id="projects_page">
     <div class="main_content">
 
-      <span class="title">Projets</span>
+      <div>
+        <span class="title">Projets</span>
 
-      <DecorativeLines/>
+        <DecorativeLines/>
 
-      <div class="description">
-        <span>Vous trouverez sur cette section la liste des projets réalisés depuis mon lancement dans l’informatique.</span>
+        <span class="description">
+        Vous trouverez sur cette section la liste des projets réalisés depuis mon lancement dans l’informatique.
+      </span>
       </div>
 
       <div id="projects">
@@ -39,15 +42,11 @@ const projets: Ref<ProjetPreview[]> = ref([
 #projects {
   display: flex;
   flex-wrap: wrap;
-  gap: 5%;
+  gap: 3%;
 }
 
 #projects > div {
   cursor: pointer;
-}
-
-.description {
-  max-width: 50%;
 }
 
 </style>

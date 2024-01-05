@@ -6,30 +6,32 @@ import DecorativeLines from "@/components/DecorativeLines.vue";
 <template>
   <div id="contact_page">
     <div class="main_content">
-      <span class="title">Contacts</span>
 
-      <DecorativeLines/>
+      <div>
+        <span class="title">Contacts</span>
 
-      <div class="description">
-        <span>Email : stella-maria.renucci@etu.umontpellier.fr</span>
-        <span>Téléphone : 06 08 47 21 05</span>
+        <DecorativeLines/>
 
-        <div id="app_icons">
-          <a href="https://github.com/Stellatsuu" target="_blank">
-            <img src="../assets/images/github_icon.png" alt="github_icon">
-          </a>
-          <a href="https://www.linkedin.com/in/stella-maria-r/" target="_blank">
-            <img src="../assets/images/linkedin_icon.png" alt="linkedin_icon">
-          </a>
+        <div class="description">
+          <span>Email : stella-maria.renucci@etu.umontpellier.fr</span>
+          <span>Téléphone : 06 08 47 21 05</span>
 
-          <!-- TODO : check CV path-->
-          <a href="./files/RENUCCI_Stella-Maria_CV.pdf" target="_blank">
-            <img src="../assets/images/cv_icon.png" alt="cv_icon"/>
-          </a>
+          <div id="app_icons">
+            <a href="https://github.com/Stellatsuu" target="_blank">
+              <img src="../assets/images/github_icon.png" alt="github_icon">
+            </a>
+            <a href="https://www.linkedin.com/in/stella-maria-r/" target="_blank">
+              <img src="../assets/images/linkedin_icon.png" alt="linkedin_icon">
+            </a>
+
+            <!-- TODO : check CV path-->
+            <a href="./files/RENUCCI_Stella-Maria_CV.pdf" target="_blank">
+              <img src="../assets/images/cv_icon.png" alt="cv_icon"/>
+            </a>
+          </div>
         </div>
-
       </div>
-
+      
     </div>
   </div>
 </template>

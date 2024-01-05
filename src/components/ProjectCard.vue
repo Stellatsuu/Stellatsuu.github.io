@@ -8,11 +8,10 @@ defineProps<{
 </script>
 
 <template>
-  <div>
+  <div class="card">
     <img :src="`./images/${projet.image}`" alt="project_logo"/>
-
     <div>
-      <p><strong>{{ projet.titre }}</strong></p>
+      <p><b>{{ projet.titre }}</b></p>
       <p>{{ projet.description }}</p>
     </div>
   </div>
@@ -20,21 +19,22 @@ defineProps<{
 
 <style scoped>
 
+.card {
+  display: flex;
+  background: #38302C;
+  width: 330px;
+  margin-bottom: 30px;
+}
+
 p {
   text-transform: uppercase;
   letter-spacing: 0.15em;
+  margin-left: 10px;
 }
 
 img {
-  width: 50px;
-  height: 50px;
+  width: 30%;
+  height: auto;
 }
-
-div {
-  background: #38302C;
-  width: 25%;
-  max-width: 350px;
-}
-
 
 </style>

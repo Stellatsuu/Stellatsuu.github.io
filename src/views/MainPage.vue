@@ -6,16 +6,17 @@ import DecorativeLines from "@/components/DecorativeLines.vue";
 <template>
   <div id="main_page">
     <div class="main_content">
+      <div>
+        <div class="title">
+          <span>Stella-Maria</span>
+          <span>Renucci</span>
+        </div>
 
-      <div class="title">
-        <span>Stella-Maria</span>
-        <span>Renucci</span>
-      </div>
+        <DecorativeLines/>
 
-      <DecorativeLines/>
-      
-      <div class="description">
-        <span>Développeuse web et applications</span>
+        <div class="description">
+          <span>Développeuse web et applications</span>
+        </div>
       </div>
     </div>
   </div>

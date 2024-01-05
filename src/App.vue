@@ -16,7 +16,7 @@ const router = useRouter();
       <div class="menu">
         <ul>
           <li><span :class="{ 'active': $route.name === 'about' }"
-                    @click="router.push({'name': 'about'})">A propos</span></li>
+                    @click="router.push({'name': 'about'})">À propos</span></li>
           <li><span :class="{ 'active': $route.name === 'projects' }"
                     @click="router.push({'name': 'projects'})">Projets</span></li>
           <li><span :class="{ 'active': $route.name === 'contact' }"

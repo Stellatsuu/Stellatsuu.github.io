@@ -22,6 +22,8 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+
+  margin: 20px 0 20px 0;
 }
 
 .decorative_lines > span:last-child {
