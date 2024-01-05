@@ -4,3 +4,12 @@ export interface ProjetPreview {
     description: string;
     image: string;
 }
+
+export interface Language {
+    id: number;
+    name: string;
+    hours: number;
+    minutes: number;
+    percent: number;
+    total_seconds: number;
+}

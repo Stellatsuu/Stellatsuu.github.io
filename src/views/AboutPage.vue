@@ -3,10 +3,20 @@
 import DecorativeLines from "@/components/DecorativeLines.vue";
 import {onMounted, ref} from "vue";
 import LanguageBar from "@/components/LanguageBar.vue";
+import type {Language} from "@/types";
 
 let totalHours = ref("Loading ...");
-let languageStats = ref([]);
-let otherLanguages = ref({});
+
+let id = 0
+let languageStats = ref<Language[]>([])
+let otherLanguages = ref<Language>({
+  id: 0,
+  name: "",
+  hours: 0,
+  minutes: 0,
+  percent: 0,
+  total_seconds: 0
+});
 
 const age = Math.abs(new Date(Date.now() - new Date('2003-04-23').getTime()).getUTCFullYear() - 1970)
 
@@ -21,7 +31,18 @@ onMounted(() => {
       .then(() =>
           fetch("https://wakatime.com/share/@Stellatsu/eae26f2e-b7e8-46de-a2c5-374f8a13edad.json")
               .then(response => response.json()
-                  .then(result => languageStats.value = result["data"])
+                  .then(result => {
+                    for (let language of result["data"]) {
+                      languageStats.value.push({
+                        "id": id++,
+                        "hours": language["hours"],
+                        "minutes": language["minutes"],
+                        "name": language["name"],
+                        "percent": language["percent"],
+                        "total_seconds": language["total_seconds"]
+                      })
+                    }
+                  })
                   .then(() => {
                     let otherSeconds = totalSeconds
 
@@ -32,14 +53,14 @@ onMounted(() => {
                     });
 
                     otherLanguages.value = {
+                      "id": id++,
                       "hours": Math.floor(otherSeconds / 3600),
                       "minutes": Math.floor((otherSeconds % 3600) / 3600),
                       "name": "Autres",
                       "percent": (otherSeconds / totalSeconds) * 100,
+                      "total_seconds": otherSeconds
                     }
                   })));
-
-
 })
 </script>
 

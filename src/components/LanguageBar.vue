@@ -1,16 +1,18 @@
 <script setup lang="ts">
+import type {Language} from "@/types";
+
 defineProps<{
-  language: {}
+  language: Language
 }>();
 
 </script>
 
 <template>
-  <div v-if="language['percent'] >= 1">
-    <p> {{ language['name'] }} - {{ language['hours'] }} hrs {{ language['minutes'] }} min</p>
+  <div v-if="language.percent >= 1">
+    <p> {{ language.name }} - {{ language.hours }} hrs {{ language.minutes }} min</p>
     <div class="progress_bar">
-      <span class="progress" :style="{ width: `${language['percent']}%`}"></span>
-      <span>{{ Math.floor(language['percent']) }}%</span>
+      <span class="progress" :style="{ width: `${language.percent}%`}"></span>
+      <span>{{ Math.floor(language.percent) }}%</span>
     </div>
   </div>
 </template>
