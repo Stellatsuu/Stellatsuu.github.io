@@ -79,7 +79,7 @@ onMounted(() => {
             ans, établie à Montpellier, en France.
             <br>
             Passionnée par les jeux vidéo, la musique et les technologies, je me suis orientée vers le domaine de
-            l'informatique, transformant ainsi mes passions en métier.
+            l'informatique, en intégrant la formation de BUT Informatique à l'IUT de Montpellier-Sète, transformant ainsi mes passions en métier.
           </p>
 
           <a href="./files/RENUCCI_Stella-Maria_CV.pdf" target="_blank">Curriculum Vitae</a>
@@ -103,6 +103,42 @@ onMounted(() => {
         <span class="title">Autres compétences</span>
 
         <DecorativeLines/>
+
+        <div id="other_skills">
+          <div>
+            <p><b>Git</b></p>
+            <span>Utilisation de Gitlab et Github dans de nombreux projets.</span>
+          </div>
+          <div>
+            <p><b>Méthodes Agiles</b></p>
+            <span>Rôle de Scrum Master et de Product Owner lors de projets.</span>
+          </div>
+          <div>
+            <p><b>Suite Office</b></p>
+            <span>Usage majoritaire de Word pour les rédactions et rendus.</span>
+          </div>
+          <div>
+            <p><b>Suite Atlassian</b></p>
+            <span>Utilisation de Trello ainsi que de Jira pour diverses projets.</span>
+          </div>
+          <div>
+            <p><b>SQL</b></p>
+            <span>Utilisation du SQL pour diverses projets contenant des bases de données. (Ex : création de scripts et requêtes durant les projets)</span>
+          </div>
+          <div>
+            <p><b>PLSQL</b></p>
+            <span>Extension au SQL, utilisé pour automatiser certaines actions concernant la BDD. (Ex : création de fonctions et triggers en PLSQL pour les projets et TD.)</span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <span class="title">Portfolio - BUT</span>
+
+        <DecorativeLines/>
+
+        <span class="description">Cette partie correspond à mon point de vue concernant ma formation : BUT Informatique</span>
+        <p></p>
       </div>
     </div>
 
@@ -118,7 +154,9 @@ onMounted(() => {
   justify-content: space-between;
 }
 
-a {
-  color: inherit;
+#other_skills {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 </style>

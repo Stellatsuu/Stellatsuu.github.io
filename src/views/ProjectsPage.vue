@@ -1,24 +1,30 @@
 <script setup lang="ts">
 
 import DecorativeLines from "@/components/DecorativeLines.vue";
+import ProjectCard from "@/components/ProjectCard.vue";
+
 import {ref, type Ref} from "vue";
-import ProjectPreview from "@/components/ProjectCard.vue";
-import type {ProjetPreview} from "@/types";
+import type {Project} from "@/types";
 
+import projects_data from '../assets/projects.json'
+import ProjectComponent from "@/components/ProjectComponent.vue";
 
-let id = 0;
-const projets: Ref<ProjetPreview[]> = ref([
-  {id: id++, titre: "E:cclesia", description: "....", image: "ecclesia_logo.png"},
-  {id: id++, titre: "Nyavigator", description: "....", image: "nyavigator_logo.png"},
-  {id: id++, titre: "Aventuriers du Rail - Europe", description: "....", image: "aventuriers_logo.png"}
-]);
+const projects: Ref<Project[]> = ref(projects_data);
 
+let currentProject = ref<Project | null>(null);
+function showProject(project: Project){
+  currentProject.value = project;
+}
+
+function hideProject(){
+  currentProject.value = null;
+}
 
 </script>
 
 <template>
   <div id="projects_page">
-    <div class="main_content">
+    <div class="main_content" v-if="!currentProject">
 
       <div>
         <span class="title">Projets</span>
@@ -26,14 +32,16 @@ const projets: Ref<ProjetPreview[]> = ref([
         <DecorativeLines/>
 
         <span class="description">
-        Vous trouverez sur cette section la liste des projets réalisés depuis mon lancement dans l’informatique.
-      </span>
+          Vous trouverez sur cette section la liste des projets réalisés depuis mon lancement dans l’informatique.
+        </span>
       </div>
 
       <div id="projects">
-        <ProjectPreview v-for="projet in projets" :key="projet.id" :projet="projet"/>
+        <ProjectCard v-for="project in projects" :key="project.id" :project="project" @showProject="showProject"/>
       </div>
     </div>
+
+    <ProjectComponent v-else :project="currentProject" @hideProject="hideProject"></ProjectComponent>
   </div>
 </template>
 
@@ -43,10 +51,6 @@ const projets: Ref<ProjetPreview[]> = ref([
   display: flex;
   flex-wrap: wrap;
   gap: 3%;
-}
-
-#projects > div {
-  cursor: pointer;
 }
 
 </style>

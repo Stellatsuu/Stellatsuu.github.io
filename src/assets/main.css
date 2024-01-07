@@ -31,6 +31,10 @@ body {
     font-size: 1.5em;
 }
 
+a {
+    color: inherit;
+}
+
 @media screen and (max-width: 660px) {
     .main_content {
         margin-left: 10%;

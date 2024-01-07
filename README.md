@@ -13,8 +13,10 @@ Website : https://stellatsuu.github.io/
 
 ## TODO - Projets (choisir les + pertinents)
 
+- Alternance
 - Projet NDI 2023
 - Projet Minecraft/Myavatar
+- Stage
 - Projet Nyavigator
 - Projet CGJ 2023 - Jeu vidéo
 - Projet NDI 2022 (à retravailler après l'événement) - Site web/Serious Game

@@ -1,8 +1,12 @@
-export interface ProjetPreview {
+export interface Project {
     id: number;
-    titre: string;
+    name: string;
+    tags: string;
+    logo: string;
+    date: string;
+    roles: string;
     description: string;
-    image: string;
+    link: string;
 }
 
 export interface Language {
