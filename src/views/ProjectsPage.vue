@@ -37,7 +37,7 @@ function hideProject(){
       </div>
 
       <div id="projects">
-        <ProjectCard v-for="project in projects" :key="project.id" :project="project" @showProject="showProject"/>
+        <ProjectCard v-for="project in projects" :project="project" @showProject="showProject"/>
       </div>
     </div>
 

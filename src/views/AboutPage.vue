@@ -104,6 +104,7 @@ onMounted(() => {
 
         <DecorativeLines/>
 
+        <span class="description">Compétences complémentaires à celles de code.</span>
         <div id="other_skills">
           <div>
             <p><b>Git</b></p>
@@ -132,13 +133,17 @@ onMounted(() => {
         </div>
       </div>
 
-      <div>
-        <span class="title">Portfolio - BUT</span>
+      <div class="pn_but">
+        <span class="title">Point de vue - BUT Informatique</span>
 
         <DecorativeLines/>
 
-        <span class="description">Cette partie correspond à mon point de vue concernant ma formation : BUT Informatique</span>
-        <p></p>
+        <span class="description">Cette partie concerne mon point de vue sur ma formation, notamment pour la démarche "Portfolio".</span>
+        <p>Globalement, le BUT Informatique m'aura apporté la plupart de mes connaissances dans le domaine informatique aujourd'hui et je pense avoir majoritairement bien réussi à accomplir les différents objectifs de la formation, notamment à la vue mes résultats et de mes nouvelles compétences.</p>
+        <p>Ces connaissances se sont avérées extrêmement bénéfiques durant mes projets, lors de mon stage ou encore, de mon expérience en alternance, tous axés principalement sur le développement web.
+          Par ailleurs, le développement web est devenu ma thématique favorite au cours de ces trois années, à tel point que je souhaite désormais me spécialiser dans ce domaine. À l'inverse, les thématiques relatives au domaine du réseau, ou encore, des mathématiques, m'ont moins attiré, principalement à cause de certaines difficultés, que j'ai néanmoins réussi à surmonter avec persévérance et travail.
+        </p>
+        <p>Pour l'instant, je ne prévois pas de continuer mes études après le BUT Informatique. La formation étant majoritairement axée pour démarrer directement dans le monde du travail, je compte en profiter et potentiellement devenir développeuse Fullstack, étant donné que j'apprécie le frontend et le backend. Mais peut-être que je changerai d'avis un jour ! Qui sait...</p>
       </div>
     </div>
 

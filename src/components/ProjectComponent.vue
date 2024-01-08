@@ -2,6 +2,7 @@
 
 import DecorativeLines from "@/components/DecorativeLines.vue";
 import type {Project} from "@/types";
+import ButComponent from "@/components/ButComponent.vue";
 
 defineProps<{
   project: Project
@@ -32,6 +33,19 @@ defineEmits<{
         <span class="description" >{{project.roles}} || {{project.date}}</span>
         <span v-html="project.description"></span>
       </div>
+
+      <div>
+        <span class="description">Relations entre les réalisations personnelles et le
+          <a href="./files/PN_BUT_Informatique.pdf" target="_blank">programme</a>
+            de BUT Informatique
+        </span>
+
+        <div class="pn_but">
+          <ButComponent v-for="element in project.pn_but" :name="element['name']" :description="element['description']" :level="element['level']"/>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
@@ -55,5 +69,11 @@ defineEmits<{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.pn_but {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3%;
 }
 </style>

@@ -1,5 +1,4 @@
 export interface Project {
-    id: number;
     name: string;
     tags: string;
     logo: string;
@@ -7,6 +6,7 @@ export interface Project {
     roles: string;
     description: string;
     link: string;
+    pn_but: [];
 }
 
 export interface Language {

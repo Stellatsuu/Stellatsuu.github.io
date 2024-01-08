@@ -1,6 +1,31 @@
 [
   {
-    "id": 0,
+    "name": "Alternance - Laboratoire Univers et Particules de Montpellier",
+    "tags": "Site web",
+    "logo": "",
+    "date": "Septembre 2023 - En cours",
+    "roles": "Développeuse",
+    "description": "<p><u> Activité 1 : Mise à la norme d'un protocole </u></p> <p> SSAP est un protocole permettant l’accès à des données spectrales (étoiles) grâce à des requêtes HTTP. Celui-ci doit être implémenté sur une application « serveur » en suivant différentes recommandations obligatoires ou optionnelles. Dans mon cas, côté « serveur », certaines de ces recommandations n’étaient plus/pas à la norme. De ce fait, les applications « clientes » à la norme ne pouvaient pas utiliser le protocole. </p> <p> Afin de régler ceci, j’ai suivi la documentation du protocole et appliqué les recommandations nécessaires pour le bon fonctionnement de l’application. Cette réalisation m’a permis de travailler ma composante essentielle CE 1.01 (respecter les besoins décrits par le client), avec pour clients, les différentes applications. </p><p>Il m’a donc fallu suivre la documentation afin de remettre à la norme celui-ci, cela a contribué à ma composante essentielle CE 1.01 ainsi qu’à deux apprentissages critiques : <ul> <li> AC 31.03 : en mettant à jour et en évoluant le code déjà existant. </li> <li> AC 31.03 : en appliquant le nouveau protocole à l’application de production. </li></ul> </p> <p><u> Activité 2 : Correction de bugs </u></p> <p>En cours de réalisation, rédaction à venir.</p>",
+    "link": "",
+    "pn_but": [
+      {
+        "name": "CE 1.01 : respecter les besoins décrits par le client.",
+        "description": "Cf. Activité 1",
+        "level": "Maitrise"
+      },
+      {
+        "name": "AC 31.02 : faire évoluer une application existante.",
+        "description": "Cf. Activité 1",
+        "level": "Maitrise"
+      },
+      {
+        "name": "AC 31.03 : intégrer des solutions dans un environnement de production.",
+        "description": "Cf. Activité 1",
+        "level": "Maitrise"
+      }
+    ]
+  },
+  {
     "name": "Exactly Enough Items",
     "tags": "Site web",
     "logo": "",
@@ -8,13 +33,15 @@
     "roles": "Développeuse",
     "description": "<p> Développement en cours, rédaction du projet à venir. </p>",
     "link": "",
-    "pn_but": {
-      "name": "",
-      "description": ""
-    }
+    "pn_but": [
+      {
+        "name": "TODO",
+        "description": "TODO",
+        "level": "TODO"
+      }
+    ]
   },
   {
-    "id": 1,
     "name": "My Avatar",
     "tags": "Site web",
     "logo": "",
@@ -22,13 +49,15 @@
     "roles": "Développeuse",
     "description": "<p> Développement en cours, rédaction du projet à venir. </p>",
     "link": "",
-    "pn_but": {
-      "name": "",
-      "description": ""
-    }
+    "pn_but": [
+      {
+        "name": "TODO",
+        "description": "TODO",
+        "level": "TODO"
+      }
+    ]
   },
   {
-    "id": 2,
     "name": "Nyavigator",
     "tags": "Site web",
     "logo": "nyavigator_logo.png",
@@ -36,13 +65,15 @@
     "roles": "Développeuse & Product Owner (3 sprints) & Scrum Master (1 sprint)",
     "description": "<p> Le projet, réalisé en deuxième année de BUT Informatique, est un site web de calcul d'itinéraire. </p><p> L'objectif principal de ce projet était d'optimiser une application déjà existante. De ce fait, une grande majorité du projet se penchait vers l'analyse et la recherche de nouvelles solutions, comme par exemple, comment améliorer le site web ? Comment rendre les algorithmes plus rapides ? A quoi pourrait-il ressembler ? Etc. </p><p> Nous avons pu mettre en œuvre différentes compétences pour cette partie d'analyse, comme par exemple, la création de modèle entité-association, de diagrammes de classe, de tests d'optimisations, notamment avec l'outil XDebug, etc. </p><p> Une fois l'analyse du site initial réalisée, il fallait commencer les modifications. Les modifications se résumaient en : l'ajout de nouvelles fonctionnalités, la refonte de la base de données, l'optimisation des algorithmes, etc. Ces changements ont mis en avant nos compétences en développement web, notamment en Javascript et PHP, avec l'utilisation de composants de framework Symfony. Mais aussi, nos compétences en base de données, avec par exemple, l'application de nos cours de normalisation afin d'avoir une base de données normalisée.</p><p>De plus, afin de s'approprier le projet, nous avons imaginé un design pour celui-ci, en faisant une analyse de l'existant et de persona ainsi qu'une maquette.</p>",
     "link": "",
-    "pn_but": {
-      "name": "",
-      "description": ""
-    }
+    "pn_but": [
+      {
+        "name": "TODO",
+        "description": "TODO",
+        "level": "TODO"
+      }
+    ]
   },
   {
-    "id": 3,
     "name": "E:cclesia",
     "tags": "Site web",
     "logo": "ecclesia_logo.png",
@@ -50,23 +81,73 @@
     "roles": "Développeuse & Scrum Master (1 sprint)",
     "description": "<p> Le projet, réalisé en deuxième année de BUT Informatique, est un site web d'aide à la décision. </p> <p> Le principe est simple : <ul> <li> L'utilisateur pose une question </li> <li> Les internautes y répondent </li> <li> Les réponses sont votées pour obtenir une gagnante </li> </ul> </p><p> Le but de ce projet était de nous initier aux méthodes agiles et à la création d'un site web en équipe. Pour réaliser ce site, nous avons mis en pratique nos compétences en développement web et en base de données, notamment en utilisant les langages PHP, SQL et PLSQL. </p> <p>De plus, nous avons pu mettre en œuvre tout ce que nous avions appris en première année de BUT, comme par exemple, les analyses ergonomiques, avec l'analyse de l'existant, la création de persona ou encore, la création de maquette. </p>",
     "link": "https://ecclesia.onirisme.net/",
-    "pn_but": {
-      "name": "",
-      "description": ""
-    }
+    "pn_but": [
+      {
+        "name": "CE 1.01 : respecter les besoins décrits par le client.",
+        "description": "Ex : client et cahier des charges lors du projet.",
+        "level": "Maitrise"
+      },
+      {
+        "name": "CE 1.04 : veiller à la qualité du code et à sa documentation.",
+        "description": "Ex : utilisation de la PHPDoc et de design pattern pour avoir un code propre.",
+        "level": "Maitrise"
+      },
+      {
+        "name": "CE 5.01 : communiquer efficacement avec les différents acteurs d'un projet",
+        "description": "Ex : réunion avec le client ou avec les développeurs, notamment en tant que Scrum Master.",
+        "level": "Acquis"
+      },
+      {
+        "name": "AC 21.01 : élaborer et mettre en place les spécifications fonctionnelles et non fonctionnelles à partir des exigences.",
+        "description": "Ex : suivre le cahier des charges et les décisions du client au fil de l'avancée du projet.",
+        "level": "Maitrise"
+      },
+      {
+        "name": "AC 21.02 : appliquer des principes d'accessibilité et d'ergonomie.",
+        "description": "Ex : réalisation de maquettes et de sondages auprès d'acteurs externes pour obtenir des avis utilisateurs.",
+        "level": "Acquis"
+      },
+      {
+        "name": "AC 25.04 : définir et mettre en oeuvre une démarche de suivi de projet.",
+        "description": "Ex : utiliser la méthode SCRUM en tant que Scrum Master et gérer l'équipe au travers d'outils comme Trello et Discord.",
+        "level": "Acquis"
+      }
+    ]
   },
   {
-    "id": 4,
     "name": "Aventuriers du Rail - Europe",
     "tags": "Application Java",
     "logo": "aventuriers_logo.png",
     "date": "Février 2022 - Juin 2022",
     "roles": "Développeuse",
-    "description": " <p> Le projet, réalisé en première année de BUT Informatique, consistait à recréer le jeu de société \"Les Aventuriers du Rail - Europe\" en Java et JavaFX en un semestre.</p><p>Le projet était divisé en 3 parties : <ul> <li> Dans la première partie, nous avons écrit la logique du code en Java, avec seulement les règles du jeu et le squelette de code minimal comme repère.<br> Cela a mis en évidence notre apprentissage de la programmation orientée objet et les débuts des tests unitaires avec JUnit.</li><li>La deuxième partie consistait à coder la fonction des graphiques mathématiques dans le contexte du jeu. <br> Il existe un mécanisme de routes qui détermine les points des joueurs, nous devions donc trouver un moyen de concevoir cela en Java. <br> Les routes étaient définies en tant que graphes pour que les points soient facilement calculés grâce à des algorithmes (Dijkstra, théorie des graphes...) </li> <li> Enfin, dans la troisième et dernière partie, nous avons recréé l'interface graphique du jeu.\nCette fois, nous avions un code de jeu écrit par les enseignants (afin de repartir sur un code fonctionnel), et nous devions, en utilisant les principes ergonomiques (analyse de l'existant, maquette...) vus en cours et le langage JavaFX, créer l'interface graphique de notre jeu. </li> </ul> </p>" ,
+    "description": "<p> Le projet, réalisé en première année de BUT Informatique, consistait à recréer le jeu de société \"Les Aventuriers du Rail - Europe\" en Java et JavaFX en un semestre. </p><p> Le projet était divisé en 3 parties : <ul><li> Dans la première partie, nous avons écrit la logique du code en Java, avec seulement les règles du jeu et le squelette de code minimal comme repère. <br> Cela a mis en évidence notre apprentissage de la programmation orientée objet et les débuts des tests unitaires avec JUnit.</li><li>La deuxième partie consistait à coder la fonction des graphiques mathématiques dans le contexte du jeu. <br> Il existe un mécanisme de routes qui détermine les points des joueurs, nous devions donc trouver un moyen de concevoir cela en Java. <br> Les routes étaient définies en tant que graphes pour que les points soient facilement calculés grâce à des algorithmes (Dijkstra, théorie des graphes...) </li> <li> Enfin, dans la troisième et dernière partie, nous avons recréé l'interface graphique du jeu.\nCette fois, nous avions un code de jeu écrit par les enseignants (afin de repartir sur un code fonctionnel), et nous devions, en utilisant les principes ergonomiques (analyse de l'existant, maquette...) vus en cours et le langage JavaFX, créer l'interface graphique de notre jeu. </li></ul></p> <p>Des informations complémentaires ainsi que le code source sont disponibles sur le dépôt du projet Github (voir lien projet).</p>" ,
     "link": "https://github.com/Stellatsuu/SAE-LesAventuriersDuRail-Europe",
-    "pn_but": {
-      "name": "",
-      "description": ""
+    "pn_but": [
+    {
+      "name": "CE 1.01 : respecter les besoins décrits par le client.",
+      "description": "Ex : suivre les règles du jeu.",
+      "level": "Acquis"
+    },
+    {
+      "name": "CE 1.03 : appliquer les principes algorithmiques.",
+      "description": "Ex : diviser les différents aspects en plusieurs classes (Joueur, Jeu, héritage de Routes pour éviter la redondance...).",
+      "level": "Acquis"
+    },
+    {
+      "name": "CE 1.04 : veiller à la qualité du code et à sa documentation.",
+      "description": "Ex : documenter les méthodes, notamment avec la JavaDoc.",
+      "level": "Acquis"
+    },
+    {
+      "name": "AC 11.02 : élaborer des conceptions simples.",
+      "description": "Ex : réaliser un croquis Figma pour concevoir et avoir un aperçu simple de l'application.",
+      "level": "Acquis"
+    },
+    {
+      "name": "AC 11.03 : faire des essais et évaluer leurs résultats en regard des spécifications.",
+      "description": "Ex : rajouter des tests unitaires à ceux des professeurs et observer les résultats.",
+      "level": "Acquis"
     }
+    ]
   }
 ]
