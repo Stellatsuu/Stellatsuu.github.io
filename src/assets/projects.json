@@ -58,6 +58,22 @@
     ]
   },
   {
+    "name": "Stage - GoodBarber",
+    "tags": "Site web",
+    "logo": "",
+    "date": "Avril 2023 - Juillet 2023",
+    "roles": "Développeuse",
+    "description": "<p> La page de ce projet sera écrite prochainement. Néanmoins, voici le rapport de stage : <a href=\"./files/RENUCCI_Stella-Maria_RapportGB.pdf\" target=\"_blank\">Rapport de stage</a> </p>",
+    "link": "",
+    "pn_but": [
+      {
+        "name": "TODO",
+        "description": "TODO",
+        "level": "TODO"
+      }
+    ]
+  },
+  {
     "name": "Nyavigator",
     "tags": "Site web",
     "logo": "nyavigator_logo.png",
