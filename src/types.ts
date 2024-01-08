@@ -6,7 +6,7 @@ export interface Project {
     roles: string;
     description: string;
     link: string;
-    pn_but: [];
+    pn_but: {name: string, description: string, level: string}[];
 }
 
 export interface Language {
