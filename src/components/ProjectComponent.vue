@@ -21,11 +21,10 @@ defineEmits<{
 
       <div>
 
-        <button class="back_button" @click="$emit('hideProject')">&#8249;</button>
-
         <div class="title_elements">
+          <button class="back_button" @click="$emit('hideProject')">&#8249;</button>
           <span class="title">{{ project.name }}</span>
-          <a :href="project.link" v-if="project.link">Lien projet</a>
+          <a id="lien_projet" :href="project.link" v-if="project.link">Lien projet</a>
         </div>
 
         <DecorativeLines/>
@@ -34,7 +33,8 @@ defineEmits<{
         <span v-html="project.description"></span>
       </div>
 
-      <div>
+      <div v-if="project.pn_but.length != 0">
+
         <span class="description">Relations entre les réalisations personnelles et le
           <a href="./files/PN_BUT_Informatique.pdf" target="_blank">programme</a>
             de BUT Informatique
@@ -67,7 +67,7 @@ defineEmits<{
 
 .title_elements{
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -76,4 +76,12 @@ defineEmits<{
   flex-wrap: wrap;
   gap: 3%;
 }
+
+#lien_projet {
+  background: #38302c;
+  border-radius: 10px;
+  padding: 10px;
+  width: fit-content;
+}
+
 </style>

@@ -21,7 +21,7 @@ defineProps<{
   display: flex;
   flex-direction: column;
   background: #38302C;
-  width: 300px;
+  width: 375px;
   margin-top: 20px;
   padding: 0 10px 10px 10px;
 }

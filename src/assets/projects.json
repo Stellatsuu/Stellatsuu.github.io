@@ -14,6 +14,11 @@
         "level": "Maitrise"
       },
       {
+        "name": "CE 6.04 : développer une communication efficace et collaborative.",
+        "description": "Ex : réunions avec les différents acteurs du projet (développeurs, scientifiques externes (Paris, etc.), utilisateurs, etc).",
+        "level": "Maitrise"
+      },
+      {
         "name": "AC 31.02 : faire évoluer une application existante.",
         "description": "Cf. Activité 1",
         "level": "Maitrise"
@@ -22,6 +27,11 @@
         "name": "AC 31.03 : intégrer des solutions dans un environnement de production.",
         "description": "Cf. Activité 1",
         "level": "Maitrise"
+      },
+      {
+        "name": "AC 32.03 : choisir et utiliser des bibliothèques et méthodes dédiées au domaine d'aplication.",
+        "description": "Ex : utilisation de bibliothèques Python pour la création d'images (PNG, SVG, etc.), pour la gestion de la compression de fichiers (GZIP, ZIP) ou encore, des librairies relatives à l'IVOA.",
+        "level": "Compris"
       }
     ]
   },
@@ -33,13 +43,7 @@
     "roles": "Développeuse",
     "description": "<p> Développement en cours, rédaction du projet à venir. </p>",
     "link": "",
-    "pn_but": [
-      {
-        "name": "TODO",
-        "description": "TODO",
-        "level": "TODO"
-      }
-    ]
+    "pn_but": []
   },
   {
     "name": "My Avatar",
@@ -49,13 +53,7 @@
     "roles": "Développeuse",
     "description": "<p> Développement en cours, rédaction du projet à venir. </p>",
     "link": "",
-    "pn_but": [
-      {
-        "name": "TODO",
-        "description": "TODO",
-        "level": "TODO"
-      }
-    ]
+    "pn_but": []
   },
   {
     "name": "Stage - GoodBarber",
@@ -63,13 +61,48 @@
     "logo": "",
     "date": "Avril 2023 - Juillet 2023",
     "roles": "Développeuse",
-    "description": "<p> La page de ce projet sera écrite prochainement. Néanmoins, voici le rapport de stage : <a href=\"./files/RENUCCI_Stella-Maria_RapportGB.pdf\" target=\"_blank\">Rapport de stage</a> </p>",
+    "description": "<p> La page de ce projet sera écrite plus en détails prochainement. Néanmoins, voici le rapport de stage : <a href=\"./files/RENUCCI_Stella-Maria_RapportGB.pdf\" target=\"_blank\">Rapport de stage</a> </p>",
     "link": "",
     "pn_but": [
       {
-        "name": "TODO",
-        "description": "TODO",
-        "level": "TODO"
+        "name": "CE 1.01 : respecter les besoins décrits par le client.",
+        "description": "Ex : suivi d'un cahier des charges.",
+        "level": "Maitrise"
+      },
+      {
+        "name": "CE 1.04 : veiller à la qualité du code et à sa documentation.",
+        "description": "Ex : documentation des méthodes et commentaires.",
+        "level": "Maitrise"
+      },
+      {
+        "name": "AC 21.03 : adopter de bonnes pratiques de conception et de programmation.",
+        "description": "Ex : refactorisation du code et utilisation de gabarits Django pour éviter la répétition de code (DRY).",
+        "level": "Maitrise"
+      },
+      {
+        "name": "AC 32.01 : anticiper les résultats de diverses métriques (temps d'exécution, occupation mémoire, ...)",
+        "description": "Ex : stockage de données en session pour éviter des re-calculs et améliorer le temps d'execution.",
+        "level": "Compris"
+      },
+      {
+        "name": "AC 23.01 : concevoir et développer des applications communicantes.",
+        "description": "Ex : développement d'une application connectée à différentes API et services.",
+        "level": "Acquis"
+      },
+      {
+        "name": "AC 14.03 : concevoir une base de données relationnelle à partir d'un cahier des charges.",
+        "description": "Ex : conception d'une base de données pour le projet Campus Playlist.",
+        "level": "Acquis"
+      },
+      {
+        "name": "AC 25.04 : définir et mettre en oeuvre une démarche de suivi de projet.",
+        "description": "Ex : réalisation de daily meeting avec le client, notamment pour faire valider les idées et poser des questions.",
+        "level": "Maitrise"
+      },
+      {
+        "name": "AC 26.04 : rendre compte de son activité professionnelle.",
+        "description": "Ex : rédaction d'un rapport.",
+        "level": "Acquis"
       }
     ]
   },
@@ -83,10 +116,56 @@
     "link": "",
     "pn_but": [
       {
-        "name": "TODO",
-        "description": "TODO",
-        "level": "TODO"
+        "name": "CE 1.01 : respecter les besoins décrits par le client.",
+        "description": "Ex : consignes du projet à respecter, avec des attentes des professeurs.",
+        "level": "Maitrise"
+      },
+      {
+        "name": "CE 1.03 : appliquer les principes algorithmiques.",
+        "description": "Ex : utilisation de design pattern.",
+        "level": "Maitrise"
+      },
+      {
+        "name": "CE 1.04 : veiller à la qualité du code et à sa documentation.",
+        "description": "Ex : utilisation de la PHPDoc.",
+        "level": "Maitrise"
+      },
+      {
+        "name": "CE 2.02 : recenser les algorithmes et les structures de données usuels.",
+        "description": "Ex : optimiser les algorithmes de l'application déjà existante.",
+        "level": "Compris"
+      },
+      {
+        "name": "CE 5.01 : communiquer efficacement avec les différents acteurs d'un projet.",
+        "description": "Ex : réunion avec les développeurs, notamment en tant que Scrum Master et Product Owner.",
+        "level": "Maitrise"
+      },
+      {
+        "name": "CE 6.04 : développer une communication efficace et collaborative.",
+        "description": "Ex : mise en place d'un Discord et de réunions quotidiennes ou hebdomadaires en tant que Scrum Master et Product Owner.",
+        "level": "Maitrise"
+      },
+      {
+        "name": "AC 21.02 : appliquer des principes d'accessibilité et d'ergonomie.",
+        "description": "Ex : réalisation de maquettes.",
+        "level": "Acquis"
+      },
+      {
+        "name": "AC 22.02 : utiliser des techniques algorithmiques adaptées pour des problèmes complexes.",
+        "description": "Ex : recherche et optimisation d'algorithmes mathématiques afin d'avoir un calcul d'itinéraire le plus rapide possible.",
+        "level": "Acquis"
+      },
+      {
+        "name": "AC 25.04 : définir et mettre en oeuvre une démarche de suivi de projet.",
+        "description": "Ex : utiliser la méthode SCRUM en tant que Scrum Master et gérer l'équipe au travers d'outils comme Trello et Discord.",
+        "level": "Maitrise"
+      },
+      {
+        "name": "AC 26.04 : rendre compte de son activité professionnelle.",
+        "description": "Ex : rédaction de compte rendus et de documentations.",
+        "level": "Acquis"
       }
+
     ]
   },
   {
@@ -105,13 +184,18 @@
       },
       {
         "name": "CE 1.04 : veiller à la qualité du code et à sa documentation.",
-        "description": "Ex : utilisation de la PHPDoc et de design pattern pour avoir un code propre.",
+        "description": "Ex : utilisation de la PHPDoc.",
         "level": "Maitrise"
       },
       {
-        "name": "CE 5.01 : communiquer efficacement avec les différents acteurs d'un projet",
+        "name": "CE 5.01 : communiquer efficacement avec les différents acteurs d'un projet.",
         "description": "Ex : réunion avec le client ou avec les développeurs, notamment en tant que Scrum Master.",
-        "level": "Acquis"
+        "level": "Maitrise"
+      },
+      {
+        "name": "CE 6.04 : développer une communication efficace et collaborative.",
+        "description": "Ex : mise en place d'un Discord et de réunions quotidiennes ou hebdomadaires en tant que Scrum Master.",
+        "level": "Maitrise"
       },
       {
         "name": "AC 21.01 : élaborer et mettre en place les spécifications fonctionnelles et non fonctionnelles à partir des exigences.",
@@ -126,6 +210,11 @@
       {
         "name": "AC 25.04 : définir et mettre en oeuvre une démarche de suivi de projet.",
         "description": "Ex : utiliser la méthode SCRUM en tant que Scrum Master et gérer l'équipe au travers d'outils comme Trello et Discord.",
+        "level": "Maitrise"
+      },
+      {
+        "name": "AC 26.04 : rendre compte de son activité professionnelle.",
+        "description": "Ex : rédaction de compte rendus et de documentations.",
         "level": "Acquis"
       }
     ]
@@ -139,31 +228,41 @@
     "description": "<p> Le projet, réalisé en première année de BUT Informatique, consistait à recréer le jeu de société \"Les Aventuriers du Rail - Europe\" en Java et JavaFX en un semestre. </p><p> Le projet était divisé en 3 parties : <ul><li> Dans la première partie, nous avons écrit la logique du code en Java, avec seulement les règles du jeu et le squelette de code minimal comme repère. <br> Cela a mis en évidence notre apprentissage de la programmation orientée objet et les débuts des tests unitaires avec JUnit.</li><li>La deuxième partie consistait à coder la fonction des graphiques mathématiques dans le contexte du jeu. <br> Il existe un mécanisme de routes qui détermine les points des joueurs, nous devions donc trouver un moyen de concevoir cela en Java. <br> Les routes étaient définies en tant que graphes pour que les points soient facilement calculés grâce à des algorithmes (Dijkstra, théorie des graphes...) </li> <li> Enfin, dans la troisième et dernière partie, nous avons recréé l'interface graphique du jeu.\nCette fois, nous avions un code de jeu écrit par les enseignants (afin de repartir sur un code fonctionnel), et nous devions, en utilisant les principes ergonomiques (analyse de l'existant, maquette...) vus en cours et le langage JavaFX, créer l'interface graphique de notre jeu. </li></ul></p> <p>Des informations complémentaires ainsi que le code source sont disponibles sur le dépôt du projet Github (voir lien projet).</p>" ,
     "link": "https://github.com/Stellatsuu/SAE-LesAventuriersDuRail-Europe",
     "pn_but": [
-    {
-      "name": "CE 1.01 : respecter les besoins décrits par le client.",
-      "description": "Ex : suivre les règles du jeu.",
-      "level": "Acquis"
-    },
-    {
-      "name": "CE 1.03 : appliquer les principes algorithmiques.",
-      "description": "Ex : diviser les différents aspects en plusieurs classes (Joueur, Jeu, héritage de Routes pour éviter la redondance...).",
-      "level": "Acquis"
-    },
-    {
-      "name": "CE 1.04 : veiller à la qualité du code et à sa documentation.",
-      "description": "Ex : documenter les méthodes, notamment avec la JavaDoc.",
-      "level": "Acquis"
-    },
-    {
-      "name": "AC 11.02 : élaborer des conceptions simples.",
-      "description": "Ex : réaliser un croquis Figma pour concevoir et avoir un aperçu simple de l'application.",
-      "level": "Acquis"
-    },
-    {
-      "name": "AC 11.03 : faire des essais et évaluer leurs résultats en regard des spécifications.",
-      "description": "Ex : rajouter des tests unitaires à ceux des professeurs et observer les résultats.",
-      "level": "Acquis"
-    }
+      {
+        "name": "CE 1.01 : respecter les besoins décrits par le client.",
+        "description": "Ex : suivre les règles du jeu.",
+        "level": "Maitrise"
+      },
+      {
+        "name": "CE 1.03 : appliquer les principes algorithmiques.",
+        "description": "Ex : diviser les différents aspects en plusieurs classes (Joueur, Jeu, héritage de Routes pour éviter la redondance...).",
+        "level": "Maitrise"
+      },
+      {
+        "name": "CE 1.04 : veiller à la qualité du code et à sa documentation.",
+        "description": "Ex : documenter les méthodes, notamment avec la JavaDoc.",
+        "level": "Maitrise"
+      },
+      {
+        "name": "CE 2.02 : recenser les algorithmes et les structures de données usuels.",
+        "description": "Ex : utiliser l'algorithme de  Dijkstra pour calculer la route la plus longue.",
+        "level": "Compris"
+      },
+      {
+        "name": "AC 11.02 : élaborer des conceptions simples.",
+        "description": "Ex : réaliser un croquis Figma pour concevoir et avoir un aperçu simple de l'application.",
+        "level": "Acquis"
+      },
+      {
+        "name": "AC 11.03 : faire des essais et évaluer leurs résultats en regard des spécifications.",
+        "description": "Ex : rajouter des tests unitaires à ceux des professeurs et observer les résultats.",
+        "level": "Acquis"
+      },
+      {
+        "name": "AC 12.03 : formaliser et mettre en œuvre des outils mathématiques pour l’informatique.",
+        "description": "Ex : utilisation de graphe et de formules mathématiques pour les routes et les calculs de points.",
+        "level": "Acquis"
+      }
     ]
   }
 ]

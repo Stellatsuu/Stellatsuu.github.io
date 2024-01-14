@@ -79,7 +79,12 @@ onMounted(() => {
             ans, établie à Montpellier, en France.
             <br>
             Passionnée par les jeux vidéo, la musique et les technologies, je me suis orientée vers le domaine de
-            l'informatique, en intégrant la formation de BUT Informatique à l'IUT de Montpellier-Sète, transformant ainsi mes passions en métier.
+            l'informatique, transformant ainsi mes passions en métier.
+          </p>
+          <p>
+            Diplomée d'un Baccalauréat Général en 2021, avec pour matières NSI, Mathématiques et SI.
+            <br>
+            Actuellement étudiante en 3e année de BUT Informatique : Réalisation d'applications : conception, développement et validation, à l'IUT de Montpellier-Sète, en vue d'intégrer le monde du travail.
           </p>
 
           <a href="./files/RENUCCI_Stella-Maria_CV.pdf" target="_blank">Curriculum Vitae</a>
@@ -143,7 +148,7 @@ onMounted(() => {
         <p>Ces connaissances se sont avérées extrêmement bénéfiques durant mes projets, lors de mon stage ou encore, de mon expérience en alternance, tous axés principalement sur le développement web.
           Par ailleurs, le développement web est devenu ma thématique favorite au cours de ces trois années, à tel point que je souhaite désormais me spécialiser dans ce domaine. À l'inverse, les thématiques relatives au domaine du réseau, ou encore, des mathématiques, m'ont moins attiré, principalement à cause de certaines difficultés, que j'ai néanmoins réussi à surmonter avec persévérance et travail.
         </p>
-        <p>Pour l'instant, je ne prévois pas de continuer mes études après le BUT Informatique. La formation étant majoritairement axée pour démarrer directement dans le monde du travail, je compte en profiter et potentiellement devenir développeuse Fullstack, étant donné que j'apprécie le frontend et le backend. Mais peut-être que je changerai d'avis un jour ! Qui sait...</p>
+        <p>Pour l'instant, je ne prévois pas de continuer mes études après le BUT Informatique. La formation étant majoritairement axée pour démarrer directement dans le monde du travail, je compte en profiter et potentiellement devenir développeuse Fullstack, étant donné que j'apprécie le développement frontend et backend. Mais peut-être que je changerai d'avis un jour ! Qui sait...</p>
       </div>
     </div>
 
@@ -156,7 +161,7 @@ onMounted(() => {
 #language_stats {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 2%;
 }
 
 #other_skills {
